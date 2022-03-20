@@ -47,13 +47,13 @@ class EditActivity : AppCompatActivity() {
                     val updatedNote = Notes(noteTitle, noteText)
                     updatedNote.id = noteID
                     viewModel.updateNote(updatedNote)
-                    Toast.makeText(this, "Not Güncllendi..", Toast.LENGTH_LONG).show()
+                    Toast.makeText(this, "Not Güncellendi..", Toast.LENGTH_SHORT).show()
                 }
             } else {
                 if (noteTitle.isNotEmpty() && noteText.isNotEmpty()) {
 
                     viewModel.addNote(Notes(noteTitle, noteText))
-                    Toast.makeText(this, "$noteTitle Eklendi", Toast.LENGTH_LONG).show()
+                    Toast.makeText(this, "$noteTitle Eklendi", Toast.LENGTH_SHORT).show()
                 }
             }
             // opening the new activity on below line
