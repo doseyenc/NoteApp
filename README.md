@@ -8,7 +8,7 @@
 
   <li><a href="https://developer.android.com/topic/libraries/architecture/viewmodel" target="_blank">ViewModel</a></li>
   
-  <li><a href="https://developer.android.com/topic/libraries/view-binding" target="_blank">ViewModel</a></li>
+  <li><a href="https://developer.android.com/topic/libraries/view-binding" target="_blank">ViewBinding</a></li>
   
  </ul>
 
