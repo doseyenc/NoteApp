@@ -26,7 +26,7 @@ class EditActivity : AppCompatActivity() {
 
         if (noteType.equals("Edit")) {
             val noteTitle = intent.getStringExtra("noteTitle")
-            val noteDescription = intent.getStringExtra("noteDescription")
+            val noteDescription = intent.getStringExtra("noteText")
             noteID = intent.getIntExtra("noteId", -1)
             binding.buttonSave.setText("Güncelle")
             binding.TvNoteTitle.setText(noteTitle)

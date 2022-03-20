@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/dosey/AndroidStudioProjects/NoteApp/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.184" />
         <entry key="..\:/Users/dosey/AndroidStudioProjects/NoteApp/app/src/main/res/layout/activity_edit.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/dosey/AndroidStudioProjects/NoteApp/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/dosey/AndroidStudioProjects/NoteApp/app/src/main/res/layout/note_cardview_design.xml" value="0.4" />
