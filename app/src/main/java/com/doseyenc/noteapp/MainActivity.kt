@@ -3,7 +3,6 @@ package com.doseyenc.noteapp
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.LinearLayout
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -28,7 +27,6 @@ class MainActivity : AppCompatActivity(), NoteClickDeleteInterface, NoteClickInt
 
         viewModel.allNotes.observe(this, Observer { list ->
             list?.let {
-                // on below line we are updating our list.
                 adapter.updateList(it)
             }
         })

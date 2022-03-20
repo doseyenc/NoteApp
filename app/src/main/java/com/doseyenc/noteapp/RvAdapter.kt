@@ -37,7 +37,7 @@ class RVAdapter(
                 noteClickDeleteInterface.onDeleteIconClick(allNotes.get(position))
             }
 
-            itemView.setOnClickListener {//çalışmazsa buraya bak
+            itemView.setOnClickListener {
                 noteClickInterface.onNoteClick(allNotes.get(position))
             }
         }

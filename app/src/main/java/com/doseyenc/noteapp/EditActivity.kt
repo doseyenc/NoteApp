@@ -35,12 +35,10 @@ class EditActivity : AppCompatActivity() {
             binding.buttonSave.setText("Kaydet")
         }
         binding.buttonSave.setOnClickListener {
-            // on below line we are getting
-            // title and desc from edit text.
+
             val noteTitle = binding.TvNoteTitle.text.toString()
             val noteText = binding.tVNoteText.text.toString()
-            // on below line we are checking the type
-            // and then saving or updating the data.
+
             if (noteType.equals("Edit")) {
                 if (noteTitle.isNotEmpty() && noteText.isNotEmpty()) {
 
@@ -56,7 +54,6 @@ class EditActivity : AppCompatActivity() {
                     Toast.makeText(this, "$noteTitle Eklendi", Toast.LENGTH_SHORT).show()
                 }
             }
-            // opening the new activity on below line
             startActivity(Intent(applicationContext, MainActivity::class.java))
             this.finish()
         }
