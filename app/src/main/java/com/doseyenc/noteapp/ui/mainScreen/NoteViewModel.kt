@@ -1,15 +1,18 @@
-package com.doseyenc.noteapp
+package com.doseyenc.noteapp.ui.mainScreen
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.viewModelScope
+import com.doseyenc.noteapp.db.NoteRepository
+import com.doseyenc.noteapp.db.NotesDatabase
+import com.doseyenc.noteapp.model.Notes
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
 class NoteViewModel(application: Application):AndroidViewModel(application) {
     val allNotes:LiveData<List<Notes>>
-    val repo :NoteRepository
+    val repo : NoteRepository
     init {
         val dao = NotesDatabase.getDatabase(application).getNotesDao()
         repo = NoteRepository(dao)

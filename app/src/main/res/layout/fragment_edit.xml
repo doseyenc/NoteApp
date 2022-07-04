@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".EditActivity">
+    tools:context=".ui.editScreen.EditActivity">
 
     <EditText
         android:id="@+id/TvNoteTitle"
@@ -41,13 +41,13 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="16dp"
-        android:hint="Not Giriniz"
         android:gravity="top|left"
+        android:hint="Not Giriniz"
         android:padding="10dp"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/buttonSave"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/TvNoteTitle" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,7 +1,8 @@
-package com.doseyenc.noteapp
+package com.doseyenc.noteapp.db
 
 import androidx.lifecycle.LiveData
 import androidx.room.*
+import com.doseyenc.noteapp.model.Notes
 
 @Dao
 interface NotesDao {

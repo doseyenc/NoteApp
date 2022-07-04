@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "734800849271",
+    "project_id": "simplenoteapp-b3b73",
+    "storage_bucket": "simplenoteapp-b3b73.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:734800849271:android:2865bacae995c651a15972",
+        "android_client_info": {
+          "package_name": "com.doseyenc.noteapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "734800849271-jqk0d0iig5dfdogm9vhl64ed44mi87ll.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCd79aI6xhy9agpn1YD3K7-NNDXAtbkdcg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "734800849271-jqk0d0iig5dfdogm9vhl64ed44mi87ll.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

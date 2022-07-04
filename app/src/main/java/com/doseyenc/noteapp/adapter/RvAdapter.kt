@@ -2,10 +2,10 @@ package com.doseyenc.noteapp
 
 import android.content.Context
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.doseyenc.noteapp.databinding.NoteCardviewDesignBinding
+import com.doseyenc.noteapp.model.Notes
 
 class RVAdapter(
     val context: Context,

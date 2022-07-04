@@ -1,6 +1,7 @@
-package com.doseyenc.noteapp
+package com.doseyenc.noteapp.db
 
 import androidx.lifecycle.LiveData
+import com.doseyenc.noteapp.model.Notes
 
 class NoteRepository(private val notesDao: NotesDao) {
     val notesAll:LiveData<List<Notes>> = notesDao.getAll()
