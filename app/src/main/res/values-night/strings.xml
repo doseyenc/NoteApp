@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-3519733139657083/8899984886</string>
+    <string name="save">Kaydet</string>
+    <string name="title">Başlık giriniz</string>
+    <string name="note">Not Giriniz</string>
+    <string name="notes_main_screen">Notlar</string>
+</resources>

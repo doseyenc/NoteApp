@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.editScreen.EditActivity">
+    android:background="@color/primaryTextColor"
+    tools:context=".ui.editScreen.EditFragment">
 
     <EditText
         android:id="@+id/TvNoteTitle"
@@ -13,26 +14,30 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
-        android:hint="Başlık giriniz"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/nunito_sans_extralight"
+        android:hint="@string/title"
         android:padding="10dp"
         android:textAlignment="center"
-        android:textSize="28sp"
+        android:textColor="@color/cardview_light_background"
+        android:textColorHint="@color/browser_actions_title_color"
+        android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/buttonSave"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="16dp"
-        android:text="Kaydet"
+        style="@style/ButtonSave"
+        android:text="@string/save"
+        android:background="@drawable/custom_button"
+        android:textColor="@color/cardview_light_background"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:cornerRadius="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/tVNoteText"
+        app:layout_constraintStart_toStartOf="@+id/tVNoteText" />
 
     <EditText
         android:id="@+id/tVNoteText"
@@ -41,10 +46,17 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/nunito_sans_extralight"
         android:gravity="top|left"
-        android:hint="Not Giriniz"
+        android:hint="@string/note"
+        android:inputType="textLongMessage|textMultiLine"
         android:padding="10dp"
-        android:textSize="20sp"
+        android:singleLine="false"
+        android:textColor="@color/cardview_light_background"
+        android:textColorHint="@color/browser_actions_title_color"
+        android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/buttonSave"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

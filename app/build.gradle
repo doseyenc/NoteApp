@@ -15,8 +15,8 @@ android {
         applicationId "com.doseyenc.noteapp"
         minSdk 21
         targetSdk 32
-        versionCode 1
-        versionName "1.0"
+        versionCode 2
+        versionName "1.1"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -42,6 +42,7 @@ android {
 dependencies {
     implementation 'com.google.firebase:firebase-crashlytics:18.2.11'
     implementation 'com.google.firebase:firebase-analytics:21.0.0'
+    implementation 'com.google.android.gms:play-services-ads:21.0.0'
     def room_version = "2.4.2"
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.4.1'

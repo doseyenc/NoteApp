@@ -7,6 +7,7 @@
     android:orientation="vertical">
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/noteCardView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="5dp"
@@ -24,8 +25,10 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
-                android:layout_marginEnd="16dp"
+                android:fontFamily="@font/nunito_sans"
                 android:text="TextView"
+                android:textSize="34sp"
+                android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/imageViewDelete"
                 app:layout_constraintHorizontal_bias="0.5"
@@ -35,11 +38,13 @@
             <ImageView
                 android:id="@+id/imageViewDelete"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginStart="16dp"
                 android:layout_marginEnd="16dp"
-                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintBottom_toBottomOf="@+id/textViewNoteText"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/textViewNoteText"
+                app:layout_constraintTop_toTopOf="@+id/textViewNoteText"
                 app:srcCompat="@drawable/ic_baseline_delete_forever_24" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>

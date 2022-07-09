@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NoteApp</string>
+    <string name="save">Ahorrar</string>
+    <string name="title">Ttulo</string>
+    <string name="note">Nota</string>
+    <string name="notes_main_screen">Notas</string>
+    <string name="note_added">adicional</string>
+    <string name="note_updated">" Nota actualizada.."</string>
+    <string name="update">Actualizar</string>
+    <string name="empty_note_field">Complete los campos de título y nota!</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NoteApp</string>
+    <string name="notes_main_screen">заметки</string>
+    <string name="note">примечание</string>
+    <string name="title">заглавие</string>
+    <string name="save">спасти</string>
+    <string name="note_added">добавлен</string>
+    <string name="note_updated">Примечание обновлено..</string>
+    <string name="update">Обновлять</string>
+    <string name="empty_note_field">Пожалуйста, заполните поля заголовка и примечания!</string>
+</resources>

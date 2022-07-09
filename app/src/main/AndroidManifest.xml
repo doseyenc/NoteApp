@@ -9,8 +9,16 @@
         android:roundIcon="@drawable/note"
         android:supportsRtl="true"
         android:theme="@style/Theme.NoteApp">
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3519733139657083~9562329860"/>
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
         <activity
             android:name=".ui.mainScreen.MainActivity"
+            android:theme="@style/SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

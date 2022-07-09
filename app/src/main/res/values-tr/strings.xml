@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NoteApp</string>
+    <string name="save">Kaydet</string>
+    <string name="title">Başlık Giriniz.</string>
+    <string name="note">Not</string>
+    <string name="notes_main_screen">Notlar</string>
+    <string name="update">Güncelle</string>
+    <string name="note_updated">Not Güncellendi..</string>
+    <string name="note_added">eklendi</string>
+    <string name="empty_note_field" >Lütfen başlık ve not alanlarını doldurunuz!</string>
+</resources>

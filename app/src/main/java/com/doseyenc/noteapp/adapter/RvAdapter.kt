@@ -1,11 +1,15 @@
 package com.doseyenc.noteapp
 
 import android.content.Context
+import android.graphics.Color
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.doseyenc.noteapp.databinding.NoteCardviewDesignBinding
 import com.doseyenc.noteapp.model.Notes
+import java.util.*
+import kotlin.collections.ArrayList
+import kotlin.random.Random.Default.nextInt
 
 class RVAdapter(
     val context: Context,
@@ -40,7 +44,12 @@ class RVAdapter(
             itemView.setOnClickListener {
                 noteClickInterface.onNoteClick(allNotes.get(position))
             }
+            val rnd = Random()
+            val currentColor = Color.argb(255, rnd.nextInt(256), rnd.nextInt(256), rnd.nextInt(256))
+            binding.noteCardView.background.setTint(currentColor)
+
         }
+
     }
 
     override fun getItemCount(): Int = allNotes.size

@@ -1,5 +1,14 @@
 <resources>
-    <string name="app_name">NoteApp</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_name" translatable="false">NoteApp</string>
+    <!-- <string name="banner_ad_unit_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>-->
+
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-3519733139657083/8899984886</string>
+    <string name="save" translatable="true">Kaydet</string>
+    <string name="title" translatable="true">Başlık giriniz</string>
+    <string name="note" translatable="true">Not Giriniz</string>
+    <string name="notes_main_screen" translatable="true">Notlar</string>
+    <string name="update" translatable="true">Güncelle</string>
+    <string name="note_updated" translatable="true">Not Güncellendi..</string>
+    <string name="note_added"  translatable="true">Eklendi</string>
+    <string name="empty_note_field" translatable="true">Lütfen başlık ve not alanlarını doldurunuz!</string>
 </resources>
